@@ -2851,9 +2851,9 @@ homedir-polyfill@^1.0.1:
     parse-passwd "^1.0.0"
 
 hosted-git-info@^2.1.4:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
-  integrity sha512-7T/BxH19zbcCTa8XkMlbK5lTo1WtgkFi3GvdWEyNuc4Vex7/9Dqbnpsf4JMydcfj9HCg4zUWFTL3Za6lapg5/w==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 html-encoding-sniffer@^1.0.2:
   version "1.0.2"
@@ -4959,15 +4959,16 @@ realpath-native@^1.1.0:
   dependencies:
     util.promisify "^1.0.0"
 
-redux-query@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/redux-query/-/redux-query-3.3.0.tgz#b62b527666739a7a3a76a0aa6470d3b087c76af3"
-  integrity sha512-jS+H/4P3r9FE2+rG9KljR7t2HxYlgD6TsO8uXUMHAW7bjvtQCNj3ISCu2+BzZybDCEBR5JYm4fXUw6W3eigHSg==
+redux-query@^3.3.1:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/redux-query/-/redux-query-3.4.2.tgz#a2ad090d1dd540bd03a0c04bb613c029fa6cc1dc"
+  integrity sha512-j+3/nXvi1tgTh8A9X0ejYYa9zcB3WBrx51XeYaooo2jhRGIngQplkcSB6CSsmIAyBY/+pLYT7xlJMACnTiwaxA==
   dependencies:
     backo "^1.1.0"
     idx "^2.5.6"
     invariant "^2.2.0"
     json-stable-stringify "^1.0.0"
+    reselect "^4.0.0"
 
 regenerate-unicode-properties@^8.0.2:
   version "8.1.0"
@@ -5101,6 +5102,11 @@ require-main-filename@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
   integrity sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==
+
+reselect@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/reselect/-/reselect-4.0.0.tgz#f2529830e5d3d0e021408b246a206ef4ea4437f7"
+  integrity sha512-qUgANli03jjAyGlnbYVAV5vvnOmJnODyABz51RdBN7M4WaVu8mecZWgyQNkG8Yqe3KRGRt0l4K4B3XVEULC4CA==
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
